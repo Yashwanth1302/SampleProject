@@ -21,7 +21,7 @@ namespace App4.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-            MobileCenter.Start("{Your Xamarin Android App Secret}", typeof(Analytics), typeof(Crashes));
+            //MobileCenter.Start("{Your Xamarin Android App Secret}", typeof(Analytics), typeof(Crashes));
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
